@@ -1,0 +1,12 @@
+git add
+git commit -m "备注"
+git init
+git log   查看修改记录
+git status
+git reset --hard HEAD^ 回退1个版本 //   git reset --hard HEAD^^ 回退2个版本
+git checkout -- file  在commit前撤销修改
+git remote add origin git@github.com:qianrenliang/Code.git // origin 是远程库的名字，可以自定义
+git push -u origin master //   git push命令，实际上是把本地当前分支master推送到远程仓库origin中, \\
+-u\\
+Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，关联之后，本地做了提交后，只需git push origin master
+
