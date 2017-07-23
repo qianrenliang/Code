@@ -2,6 +2,7 @@ git add
 git commit -m "备注"
 git init
 git log   查看修改记录
+git log --pretty
 git status
 git reset --hard HEAD^ 回退1个版本 //   git reset --hard HEAD^^ 回退2个版本
 git checkout -- file // 可以丢掉工作区的修改，--很重要
@@ -19,4 +20,4 @@ git checkout -b name // 创建+切换
 git tag // 打标签
 git tag -a <tagname> -m "comment" //
 git tag -d <tagname>// delete 
-
+							2017-07-23
