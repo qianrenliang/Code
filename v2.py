@@ -13,7 +13,7 @@ from sklearn.preprocessing import LabelEncoder
 # 待改进: encode decode部分优化 done
 # 按平均通行时间划分等级 优化  done
 # 尝试按speed划分等级 ,评估效果  terrible
-# 考虑 趋势特征 trends
+
 
 
 data = pd.read_csv('gy_contest_link_info.txt', sep=';')
